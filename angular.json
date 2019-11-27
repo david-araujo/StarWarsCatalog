@@ -24,9 +24,18 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/font-awesome/css/font-awesome.min.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/admin-lte/dist/css/AdminLTE.min.css",
+              "./node_modules/admin-lte/dist/css/skins/skin-red.min.css",
+              "./node_modules/admin-lte/plugins/iCheck/flat/red.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "./node_modules/admin-lte/dist/js/adminlte.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -89,9 +98,18 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              {"input": "node_modules/font-awesome/css/font-awesome.min.css"},
+              {"input": "node_modules/bootstrap/dist/css/bootstrap.min.css"},
+              {"input": "node_modules/admin-lte/dist/css/AdminLTE.min.css"},
+              {"input": "node_modules/admin-lte/dist/css/skins/skin-red.min.css"},
+              {"input": "node_modules/admin-lte/plugins/iCheck/flat/red.css"},
+              {"input": "styles.css"}
             ],
-            "scripts": []
+            "scripts": [
+              {"input": "node_modules/jquery/dist/jquery.min.js"},
+              {"input": "node_modules/bootstrap/dist/js/bootstrap.min.js"},
+              {"input": "node_modules/admin-lte/dist/js/adminlte.min.js"}
+            ]
           }
         },
         "lint": {
